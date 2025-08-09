@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="pt-br"> <!-- Indica que o site está em português do Brasil -->
+<head>
+  <meta charset="UTF-8" /> <!-- Define a codificação para aceitar acentos -->
+  <meta name="viewport" content="width=device-width, initial-scale=1" /> <!-- Deixa o site responsivo em celular e PC -->
+  <title>Nutri&Saboear</title> <!-- Título que aparece na aba do navegador -->
+  <link rel="stylesheet" href="style.css" /> <!-- Conecta o arquivo de estilo CSS -->
+</head>
+<body>
+
+  <!-- ===== CABEÇALHO DO SITE ===== -->
+  <header>
+    <div class="header-container">
+      <h1>Nutri&Saboear</h1> <!-- Nome do site -->
+      <nav> <!-- Menu de navegação -->
+        <ul>
+          <li><a href="#inicio">Início</a></li>
+          <li><a href="#receitas">Receitas</a></li>
+          <li><a href="#dicas">Dicas</a></li>
+          <li><a href="#desafios">Desafio</a></li>
+          <li><a href="#curiosidades">Curiosidades</a></li>
+          <li><a href="#blog">Blog</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ===== CONTEÚDO PRINCIPAL COM 3 COLUNAS ===== -->
+  <main class="layout-tres-colunas">
+
+    <!-- ==== COLUNA ESQUERDA: RECEITAS ==== -->
+    <section class="posts">
+      <h1>Receitas</h1>
+
+      <!-- Cada "article" é um bloco de receita -->
+      <article class="card">
+        <h2>Café da Manhã</h2>
+        <div class="imagens">
+          <!-- Lista de imagens para esta categoria -->
+          <img src="images/cfm_01.png" alt="Café e pão com ovo" />
+          <img src="images/cfm_02.png" alt="Pão com queijo e banana" />
+          <img src="images/cfm_03.png" alt="Mamão, café e ovos" />
+        </div>
+        <p>Receitas de café da manhã são muito variadas. Tem opções que você nem imagina que são tão fáceis de fazer. </p>
+        <button class="btn">Ver receitas</button>
+      </article>
+
+      <article class="card">
+        <h2>Almoço e Jantar</h2>
+        <div class="imagens">
+          <img src="images/alm_01.png" alt="Arroz de brócolis" />
+          <img src="images/alm_02.png" alt="Salada de macarrão" />
+          <img src="images/jan_02.png" alt="Filé de peixe com batata" />
+        </div>
+        <p>Opções leves e nutritivas para aproveitar o melhor do almoço e do jantar sem abrir mão do sabor.</p>
+        <button class="btn">Ver receitas</button>
+      </article>
+
+      <article class="card">
+        <h2>Lanches Saudáveis</h2>
+        <div class="imagens">
+          <img src="images/lan_01.png" alt="Hambúrguer de atum e aveia" />
+          <img src="images/lan_02.png" alt="Wrap de frango com vegetais" />
+        </div>
+        <p>Sem tempo? Esses snacks ficam prontos em minutos.</p>
+        <button class="btn">Ver receitas</button>
+      </article>
+
+      <article class="card">
+        <h2>Sobremesas</h2>
+        <div class="imagens">
+          <img src="images/sbm_01.png" alt="Brownie integral" />
+          <img src="images/sbm_02.png" alt="Salada de frutas" />
+        </div>
+        <p>É totalmente possível fazer sobremesas usando vegetais, frutas ou legumes. Dá também para comer doces com menos calorias. </p>
+        <button class="btn">Ver receitas</button>
+      </article>
+
+      <article class="card">
+        <h2>Bebidas</h2>
+        <div class="imagens">
+          <img src="images/beb_01.png" alt="Sucos gelados" />
+          <img src="images/beb_02.png" alt="Chás" />
+          <img src="images/beb_03.png" alt="Vitamina de banana" />
+        </div>
+        <p>Vitaminas para saciar sem pesar, chás calmantes para o fim do dia. Ideal para horários em que não se quer comer.</p>
+        <button class="btn">Ver receitas</button>
+      </article>
+    </section>
+
+    <!-- ==== COLUNA DO MEIO: BLOCO CENTRAL ==== -->
+    <section class="bloco-central">
+
+      <!-- Grupo: Dicas do Dia -->
+      <div class="dicas-do-dia">
+        <div class="sessao-dicas-central">
+          <h2>Dicas do Dia</h2>
+          <div class="dicas">
+            <div class="dica exercicio">
+              <h3>Exercícios</h3>
+              <p>Movimente-se por pelo menos 30 minutos. Caminhada, dança ou bicicleta valem!...</p>
+            </div>
+            <div class="dica alongamento">
+              <h3>Alongamento</h3>
+              <p>Mover o corpo é acordar a mente. Melhora a postura e a mobilidade..</p>
+            </div>
+            <div class="dica livre">
+              <h3><strong>Dia da Lixeira</strong></h3>
+              <p>Um dia ou uma refeição por semana para comer o que quiser sem culpa......</p>
+            </div>
+          </div>
+        </div>
+        <button class="btn ver-mais">Ver mais...</button>
+      </div>
+
+      <!-- Grupo: Desafio Nutri -->
+      <div class="desafio-nutri">
+        <section class="sessao-desafio-central">
+          <h2>Topa o Desafio Nutri?</h2>
+          <div class="desafios">
+            <div class="desafio">
+              <h3>Beber 2L de Água</h3>
+              <p>Mantenha seu corpo hidratado.</p>
+            </div>
+            <div class="desafio">
+              <h3>Comer 5 Porções de Frutas</h3>
+              <p>Varie as cores para mais nutrientes.</p>
+            </div>
+            <div class="desafio">
+              <h3>Evitar Açúcar Refinado</h3>
+              <p>Troque por frutas secas ou mel.</p>
+            </div>
+            <div class="desafio">
+              <h3>Praticar 20 min de Yoga</h3>
+              <p>Ajuda a relaxar e melhorar a postura.</p>
+            </div>
+          </div>
+          <button class="btn ver-mais">Ver mais...</button>
+        </section>
+      </div>
+
+      <!-- Grupo: Curiosidades Nutritivas -->
+      <div class="curiosidades-nutritivas">
+        <h2>Curiosidades Nutritivas</h2>
+        <div class="curiosidades">
+          <div class="curiosidade-nutritiva">
+            <p>A cenoura é rica em betacaroteno, que o corpo converte em vitamina A, essencial para a saúde dos olhos, pele e sistema imunológico.</p>
+            </div>
+            <div class="curiosidade-nutritiva">
+            <p>O abacate contém gorduras boas, como os ácidos graxos monoinsaturados, que ajudam a proteger o coração e a manter níveis saudáveis de colesterol.</p>
+            </div>
+            <div class="curiosidade-nutritiva">
+            <p>Vegetais de folhas escuras, como couve e espinafre, têm cálcio e ferro, nutrientes importantes para a saúde dos ossos, músculos e produção de energia.</p>
+            </div>
+            <div class="curiosidade-nutritiva">
+            <p>Alimentos roxos, como uva, ameixa e repolho roxo, ajudam na saúde do cérebro e possuem antioxidantes que combatem o envelhecimento celular.</p>
+            </div>
+        </div>
+        <button class="btn ver-mais">Ver mais...</button>
+      </div>
+
+    </section>
+
+    <!-- ==== COLUNA DIREITA ==== -->
+    <aside class="sidebar-direita">
+  <h3>Blog</h3>
+
+  <div class="post-blog">
+    <h3> Café da Manhã</h3>
+    <p>Se você acorda correndo, não precisa pular o café. Um iogurte com frutas ou um sanduíche já garantem energia...</p>
+  </div>
+
+  <div class="post-blog">
+    <h3> Almoço e Jantar</h3>
+    <p>Mesmo na correria, dá pra montar um prato equilibrado. Metade de vegetais, um pouco de proteína e carboidratos bons...</p>
+  </div>
+
+  <div class="post-blog">
+    <h3> Sobremesas</h3>
+    <p>Um docinho pode sim fazer parte. Chocolate amargo, banana assada ou iogurte com mel são ótimas opções leves...</p>
+  </div>
+
+  <div class="post-blog">
+    <h3> Bebidas</h3>
+    <p>Não deixe a água de lado. Café ajuda, mas o corpo precisa de hidratação ao longo do dia para funcionar bem...</p>
+  </div>
+
+  <div class="post-blog">
+    <h3> Movimento no Dia a Dia</h3>
+    <p>Sem tempo pra academia? Subir escadas, caminhar até o mercado ou se alongar já faz diferença na sua rotina...</p>
+  </div>
+
+  <div class="post-blog">
+    <h3> Saúde Emocional</h3>
+    <p>A rotina pesa, eu sei. Pausas curtas, uma música leve ou um respiro consciente já ajudam a cuidar da mente...</p>
+  </div>
+
+  <button class="btn ver-mais">Ver mais blogs</button>
+</aside>
+
+
+  </main>
+
+  <!-- ===== RODAPÉ ===== -->
+  <footer>
+    <p>&copy; 2025 Nutri&Saboear. Todos os direitos reservados.</p>
+  </footer>
+
+</body>
+</html>
